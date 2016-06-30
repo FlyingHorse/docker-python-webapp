@@ -5,7 +5,7 @@
 中示例，这里将其部署到docker
 
 ##安装docker
-##部署mysql容器
+##部署[mysql容器](https://hub.docker.com/_/mysql/)
 ###启动mysql容器
 
 >docker run --name mysql -v /Users/liuyangyang/workspace/datadir:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
@@ -18,5 +18,5 @@
 
 >docker network inspect bridge
 
-##配置python中web app
+##配置python中web app中db配置
 ##run python app
